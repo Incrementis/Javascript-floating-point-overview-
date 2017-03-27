@@ -1,5 +1,3 @@
 # Javascript-floating-point-overview-
-Calculates bits to integer, integer to bits and some interesting floating point examples. Check the wiki for detailed information!
-
-
+Calculates bits to integer, integer to bits and some interesting floating point examples. For more information please visit the wiki for this project:
 STILL IN WORK!!
