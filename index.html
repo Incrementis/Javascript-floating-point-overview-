@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+	<head>	
+	
+		<meta charset = "UTF-8">
+		<title>Floating point overview!</title>	
+		<script language = "javascript" type = "text/javascript" src = "overview.js"></script>
+		
+	</head>
+	
+	<body>
+	
+		<form>
+		
+			Integer to bit: <input type = "text" id = "bit" size = "32" value = "8">---
+			Result: <span id = "RESbit"></span>
+			<br>
+			<br>
+			Bit to integer: <input type = "text" id = "integer" size = "32" value = "1001">---
+			Result: <span id = "RESint"></span>
+			<br>
+			<br>
+			<button type = "button" onclick = "calculate()"> Calculate </button>
+ 		
+		</form>
+			
+		<br>
+		<article>
+		
+			<h3>Interesting examples:</h3>
+			
+			
+			<ul>
+			
+				<button type = "button" onclick = "example1()" >   0.1 + 0.2 			</button>
+				<button type = "button" onclick = "example2()" >  (0.1 + 0.2) + 0.3 	</button>
+				<button type = "button" onclick = "example3()" >   0.1 + (0.2 + 0.3) 	</button>
+				<br>
+				<br>
+				<li id = "ex_one"></li>
+				<br>
+				<li id = "ex_two"></li>
+				<br>
+				<li id = "ex_three"></li>
+			
+			</ul>
+			
+		
+		</article>
+		
+		<br>
+		For more explanation please visit - 
+		<a href = "https://github.com/Incrementis/Javascript-keyword-const-/wiki"> Floating point overview Wiki
+	
+	</body>
+	
+
+	
+</html>
